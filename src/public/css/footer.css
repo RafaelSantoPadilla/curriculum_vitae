@@ -1,0 +1,64 @@
+.contacto{
+    background-color: var(--negro);
+    padding: 140px 0 100px 0;
+    color: var(--blancoOscuro);
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: var(--moradoClaro);
+}
+/* SECCION RESPONSIVE */
+@media screen and (max-width:800px){
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .habilidades .contenido-seccion .fila .col .cont-barra{
+        justify-content: center;
+    }
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .resumen .contenido-seccion .info{
+        display: block;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .resumen .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .resumen .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
+}

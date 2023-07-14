@@ -1,0 +1,21 @@
+:root {
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisOscuro: #666;
+    --verde: #39b54a;
+    --blanco: #fff;
+    --negro: #000;
+    --silver: #C0C0C0;
+    --teal:#008080;
+    --grisClaro: #ebebeb;
+    --rojo:#FF0000;
+    --azulFace: #3b5998;
+    --azulTwi:#00acee;
+    --rojoYou:#c4302b;
+    --rojoPint:#c8232c;
+    --purpuraInsta:#BE25A5;
+    --negroClaro: rgba(0,0,0,.3);
+    --moradoClaro: #83073C; 
+    --blancoOscuro: #e6e6e6;
+}
